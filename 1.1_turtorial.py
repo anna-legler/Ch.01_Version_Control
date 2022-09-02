@@ -10,21 +10,28 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 import turtle
 yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
+screen.bgcolor('#0000aa') # colors the screen
 yoda.pensize(3) # width of pen line
 yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
 yoda.penup()
-yoda.setpos(50,185) #right ear
+yoda.goto(-30,-60)
 yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
+yoda.end_fill()
+yoda.color("orange")
+yoda.circle(80)#head
+yoda.goto(-180, 0)#rest of the body
+yoda.goto(-180, 40)
+yoda.goto(-30, 100)
 yoda.penup()
-yoda.setpos(-50,185)  #left ear
+yoda.goto(-180, 0)#preparing to make tail
 yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
+yoda.goto(-220, -40)#tail
+yoda.goto(-220,80)
+yoda.goto(-180, 40)
+yoda.penup()
+yoda.goto(-30,100)#preperation to take top fin
+yoda.pendown()
+yoda.goto(-50, 160)
 yoda.penup()
 yoda.setpos(200,-300)
 yoda.pendown()

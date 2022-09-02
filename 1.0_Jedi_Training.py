@@ -1,19 +1,19 @@
 '''
-Sign your name:________________
+Sign your name:Anna Legler
 
 
 
-Define Forking: 
+Define Forking: making a copy of a file of code
 
-Define Cloning: 
+Define Cloning: uploading the forked file to your computer
 
-Define Branching:
+Define Branching: splitting your code into two separate versions that can be edited differently
 
-Define Committing: 
+Define Committing: perminently saving your code
 
-Define Merging: 
+Define Merging: adding a secondary branch to the master branch
 
-Define Pushing:
+Define Pushing: combining a forked file to the original
 
 Define Pull Request:
 
