@@ -15,7 +15,7 @@ Define Merging: adding a secondary branch to the master branch
 
 Define Pushing: combining a forked file to the original
 
-Define Pull Request:
+Define Pull Request: requesting to merge code that was forked back into the orginal file
 
 
 '''
